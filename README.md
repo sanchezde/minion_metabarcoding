@@ -21,4 +21,4 @@ The data includes MinION pass reads that we demultiplexed using Albacore 2.3.4 (
 
 #### Acknowledgements
 
-I would like to thank [Greg Caporaso](https://github.com/gregcaporaso) for putting together the `merge_fasta_for_qiime2.py` script during your office hours and review of our manuscript.
+I would like to thank [Greg Caporaso](https://github.com/gregcaporaso) for putting together the `merge_fasta_for_qiime2.py` script during your office hours and an initial review of our manuscript.
