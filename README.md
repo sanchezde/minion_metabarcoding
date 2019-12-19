@@ -11,7 +11,7 @@ The data includes MinION pass reads that we demultiplexed using Albacore 2.3.4 (
 #### Required modules and programs
 
 * [Miniconda installation of QIIME 2](https://docs.qiime2.org/2019.10/install/native/)
-* [Canu 1.9)](https://canu.readthedocs.io/en/latest/)
+* [Canu 1.9](https://canu.readthedocs.io/en/latest/)
 * [Cutadapt 2.1](https://cutadapt.readthedocs.io/en/stable/)
 * [Tidyverse](https://www.tidyverse.org/) installation in R only for running R script at end
   * readr 1.3.1
