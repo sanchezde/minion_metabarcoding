@@ -1,6 +1,6 @@
 # Menu à la MinION: a simple process to QC and classify taxonomy in field settings
 
-## Metabarcoding from MinION sequence data: from raw reads to taxonomy
+## Metabarcoding from Nanopore sequence data: from raw reads to taxonomy
 
 ### Overview
 
