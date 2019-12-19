@@ -1,0 +1,5 @@
+#SampleID	Type	Common	Description
+180611_Lion1a_COI	Carnivore	Lion	180611_Lion1a_ZambiaField_COI_Carnivore_Lion
+180611_Lion2a_COI	Carnivore	Lion	180611_Lion2a_ZambiaField_COI_Carnivore_Lion
+180613_Leopard02b_COI	Carnivore	Leopard	180613_Leopard02b_ZambiaField_COI_Carnivore_Leopard
+BMC1_field_COI	Insectivore	Bat.Community	BMC1_ZambiaField_COI_Insectivore_Bat.Community

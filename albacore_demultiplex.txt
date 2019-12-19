@@ -1,0 +1,33 @@
+##### Albacore 2.3.4 for Windows 10, Intel(R) Core (TM) i7-7700 CPU @ 3.60GHz, 64-bit 32.0 GB RAM#####
+
+#### Command prompt commands for demultiplexing Fast5 files into fastq files
+#### Uses recursive option `-r` to demultiplex from all Fast5 sub-directories
+
+
+### Running commands from albacore directory
+
+CD "C:\Program Files\OxfordNanopore\ont-albacore"
+
+### Demultiplexing MinION data using kit SQK-LWB001
+
+read_fast5_basecaller.exe ^
+ --flowcell FLO-MIN106 ^
+ --kit SQK-LWB001 ^
+ --barcoding ^
+ --output_format fastq ^
+ -i C:\data\reads\run_name ^
+ -s C:\my_output_directory ^
+ --worker_threads 4 ^
+ -r
+
+### Demultiplexing MinION data using kit SQK-LSK108
+
+read_fast5_basecaller.exe ^ 
+ --flowcell FLO-MIN106 ^ 
+ --kit SQK-LSK108 ^ 
+ --barcoding ^ 
+ --output_format fastq ^ 
+ -i C:\data\reads\run_name ^ 
+ -s C:\my_output_directory ^ 
+ --worker_threads 4 ^ 
+ -r

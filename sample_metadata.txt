@@ -1,0 +1,5 @@
+sample-id	fasta-filename
+180611_Lion1a_COI	180611_Lion1a_COI.fasta
+180611_Lion2a_COI	180611_Lion2a_COI.fasta
+180613_Leopard02b_COI	180613_Leopard02b_COI.fasta
+BMC1_field_COI	BMC1_field_COI.fasta
