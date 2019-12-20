@@ -1,4 +1,5 @@
 
+source activate qiime2-2018.11
 
 # Map and rename
 
@@ -15,15 +16,13 @@ for i in *.fastq; do python3 ../fastq_to_fasta.py "$i"; done
 
 # merge fasta for qiime2 and batch for canu
 
-source activate qiime2-2018.11
-
 python3 ../merge_fasta_for_qiime2.py ../sample_metadata.txt
 
 # filter target sequence length
 
-# Error correction in Canu 1.9
-
 python3 ../length_filter.py seqs.fasta 691 950 # min max
+
+# Error correction in Canu 1.9
  
 ~/canu-1.9/Darwin-amd64/bin/canu -correct -minOverlapLength=10 \
  -nanopore-raw seqs.filtered.fasta \
