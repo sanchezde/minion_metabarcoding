@@ -21,4 +21,4 @@ Simply follow the commands in `tutorial_commands.sh` from the pass directory. Th
 
 #### Acknowledgements
 
-I would like to thank [Greg Caporaso](https://github.com/gregcaporaso) for putting together the `merge_fasta_for_qiime2.py` script during your office hours and an initial review of our manuscript.
+I would like to thank [Greg Caporaso](https://github.com/gregcaporaso) for putting together the `merge_fasta_for_qiime2.py` script.
